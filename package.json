@@ -1,6 +1,6 @@
 {
   "name": "codeceptjs-webhook-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CodeceptJS helper for testing webhook calls",
   "dependencies": {
     "http": "^0.0.1-security"
@@ -30,5 +30,18 @@
     "testTimeout": 50000
   },
   "author": "Semir Turgay <semir.turgay@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onemolegames/codeceptjs-webhook-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onemolegames/codeceptjs-webhook-helper/issues"
+  },
+  "homepage": "https://github.com/onemolegames/codeceptjs-webhook-helper#readme"
 }

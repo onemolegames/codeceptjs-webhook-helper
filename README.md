@@ -3,7 +3,7 @@
 codeceptjs-webhook-helper is a [CodeceptJS](https://codecept.io) helper to be able to test webhook calls during the tests.
 
 ## How it works
-This helper creates a simple http server with nodejs's request library, with a given port on the localhost.
+This helper creates a simple http server with nodejs's `http` library, with a given port on the localhost.
 Before using, you need to set your webhook urls to the `http://localhost:<given_port_in_the_config>/**` 
 
 ## Installation
